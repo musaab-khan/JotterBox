@@ -7,7 +7,7 @@ router.get("/",(req,res)=>{ //here endpoint is defined as "/" because the the in
     //     pass: "khan"
     // }
     // res.json(obj) //this gives simple json reply of object obj
-    res.json([]);
+    res.json("notes.js");
 });
 
 module.exports = router;
